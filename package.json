@@ -1,5 +1,5 @@
 {
-  "name": "wasm-metering",
+  "name": "@btc-vision/wasm-metering",
   "version": "0.3.0",
   "description": "injects metering into webassembly binaries",
   "main": "index.js",
@@ -18,8 +18,8 @@
   ],
   "license": "MPL-2.0",
   "dependencies": {
-    "leb128": "^0.0.5",
-    "wasm-json-toolkit": "github:btc-vision/wasm-json-toolkit"
+    "@btc-vision/wasm-json-toolkit": "github:btc-vision/wasm-json-toolkit",
+    "leb128": "^0.0.5"
   },
   "devDependencies": {
     "coveralls": "^3.0.0",
