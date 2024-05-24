@@ -1,6 +1,6 @@
 {
   "name": "@btc-vision/wasm-metering",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "injects metering into webassembly binaries",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,7 @@
     "lint": "standard",
     "test": "node --harmony ./test/index.js"
   },
+  "types": "index.d.ts",
   "bin": {
     "wasm-meter": "./bin/wasm-meter"
   },

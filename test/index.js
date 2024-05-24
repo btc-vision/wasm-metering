@@ -2,7 +2,7 @@ const fs = require('fs')
 const tape = require('tape')
 const metering = require('../')
 const defaultCostTable = require('./defaultCostTable')
-const toolkit = require('wasm-json-toolkit')
+const toolkit = require('@btc-vision/wasm-json-toolkit')
 
 tape('basic test', t => {
   const json = JSON.parse(fs.readFileSync(`${__dirname}/in/json/basic.wast.json`).toString())
