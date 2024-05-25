@@ -220,3 +220,10 @@ exports.meterWASM = (wasm, opts = {}) => {
   json = exports.meterJSON(json, opts)
   return toolkit.json2wasm(json)
 }
+
+exports.MeterType = {
+  I64: 'i64',
+  I32: 'i32',
+  F64: 'f64',
+  F32: 'f32'
+}
