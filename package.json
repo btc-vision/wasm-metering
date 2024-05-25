@@ -1,6 +1,6 @@
 {
   "name": "@btc-vision/wasm-metering",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "injects metering into webassembly binaries",
   "main": "index.js",
   "scripts": {

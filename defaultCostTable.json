@@ -38,11 +38,11 @@
 
       "nop": 1,
       "block": 1,
-      "loop": 1,
+      "loop": 200,
       "if": 1,
       "then": 200,
       "else": 200,
-      "br": 200,
+      "br": 500,
       "br_if": 300,
       "br_table": 200,
       "return": 200,
