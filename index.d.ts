@@ -14,9 +14,16 @@ export function meterJSON(
         costTable?: Record<string, any>;
         moduleStr?: string;
         fieldStr?: string;
-        meterType?: string;
+        meterType?: MeterType;
     }
 ): any;
+
+export enum MeterType {
+    I64 = 'i64',
+    I32 = 'i32',
+    F64 = 'f64',
+    F32 = 'f32'
+}
 
 /**
  * Injects metering into a WebAssembly binary
@@ -34,6 +41,6 @@ export function meterWASM(
         costTable?: Record<string, any>;
         moduleStr?: string;
         fieldStr?: string;
-        meterType?: 'i64' | 'i32' | 'f64' | 'f32';
+        meterType?: MeterType;
     }
 ): Buffer;
